@@ -1,0 +1,9 @@
+﻿
+@if(TempData["Success"]!=null)
+{
+    <script type="text/javascript">
+        toastr.success('@TempData["Success"]','',{ "closeButton": true,"timeOut":1000})
+        
+     </script>
+}
+
